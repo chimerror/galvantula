@@ -2,7 +2,6 @@
 using UnityEngine;
 
 [RequireComponent(typeof(Animator))]
-[RequireComponent(typeof(SkinnedMeshRenderer))]
 public class MesomorphBehaviour : MonoBehaviour
 {
     [Range(0.0f, 1.0f)]
